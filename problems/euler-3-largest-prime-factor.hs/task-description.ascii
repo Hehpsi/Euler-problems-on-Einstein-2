@@ -1,0 +1,38 @@
+// //////////////////////////////////////////////////////////////
+= Euler 3
+
+****
+Euler problem 3: https://projecteuler.net/problem=3[].
+****
+
+// //////////////////////////////////////////////////////////////
+== COBOL
+
+.Task
+****
+Assume a single command-line argument, a non-negative integer $n$.
+
+Write a COBOL program named `euler-3-largest-prime-factor.cbl` which calculates the largest prime factors of $n$.
+
+Compile your program with:
+
+   $ cobc -w -F -x -Os -o euler-3-largest-prime-factor_compiled euler-3-largest-prime-factor.cbl
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ ./euler-3-largest-prime-factor_compiled 13195
+----
+
+.Example standard output
+----
+00000029
+----
+
+.Explanation
+****
+The prime factors of 13195 are 5, 7, 13, and 29.
+The solution is 29 since it is the largest.
+****

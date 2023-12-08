@@ -1,0 +1,4 @@
+$ ./euler-4-largest-palindrome-product_compiled 2
+9009
+$ ./euler-4-largest-palindrome-product_compiled 3
+906609

@@ -1,0 +1,10 @@
+$ ./euler-100-arranged-probability_compiled 0
+85
+$ ./euler-100-arranged-probability_compiled 1000
+2871
+$ ./euler-100-arranged-probability_compiled 1000000
+3312555
+$ ./euler-100-arranged-probability_compiled 1000000000
+3822685023
+$ ./euler-100-arranged-probability_compiled 1000000000000
+756872327473

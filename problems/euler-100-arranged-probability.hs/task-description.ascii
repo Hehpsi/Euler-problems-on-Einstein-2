@@ -1,0 +1,32 @@
+= Project Euler Problem 100
+
+== Problem Description
+
+If a box contains twenty-one coloured discs, composed of fifteen blue discs and six red discs, and two discs were taken at random, it can be seen that the probability of taking two blue discs, P(BB) = (15/21) x (14/20) = (1/2).
+
+The next such arrangement, for which there is exactly 50% chance of taking two blue discs at random, is a box containing eighty-five blue discs and thirty-five red discs.
+
+By finding the first arrangement to contain over 10^12 = 1,000,000,000,000$ discs in total, determine the number of blue discs that the box would contain.
+
+== COBOL
+
+.Task
+****
+Write a COBOL program named `./euler-100-arranged-probability_compiled 1000000000000` to determine the number of blue discs in the box with over 10^12 total discs.
+
+.Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_]/.
+
+.Example Invocation
+----
+$ ./euler-100-arranged-probability_compiled 1000000000000
+----
+
+.Example Output
+----
+000000756872327473
+----
+
+.Explanation
+****
+The number of blue discs in the box with over 10^12 total discs is 756872327473.
+****
