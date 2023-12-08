@@ -1,0 +1,6 @@
+$ ./euler-162-hexadecimal-numbers_compiled 3
+4
+$ ./euler-162-hexadecimal-numbers_compiled 10
+1541417C14
+$ ./euler-162-hexadecimal-numbers_compiled 16
+3D58725572C62302
